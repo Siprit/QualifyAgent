@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Create Financial Asset</masterLabel>
+    <description>Creates a Financial_Asset__c record for any asset category (cash, payslip, tax return, super, savings, crypto, property, income). Sets document requirements based on category configuration. Returns the new record ID.</description>
+    <developerName>Action_Create_Financial_Asset</developerName>
+    <functionType>Flow</functionType>
+    <flowDefinition>EBF_Create_Financial_Asset</flowDefinition>
+</GenAiFunction>

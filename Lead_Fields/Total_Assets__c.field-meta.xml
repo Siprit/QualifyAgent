@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Assets__c</fullName>
+    <label>Total Assets</label>
+    <description>Sum of all Financial_Asset__c values for this Lead. Updated by EBF_Rollup_Financial_Assets flow.</description>
+    <type>Currency</type>
+    <precision>16</precision>
+    <scale>2</scale>
+    <required>false</required>
+    <externalId>false</externalId>
+</CustomField>

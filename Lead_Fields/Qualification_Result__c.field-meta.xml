@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_Result__c</fullName>
+    <label>Qualification Result</label>
+    <description>Human-readable qualification outcome (e.g. "Qualified - Score: 75", "Not Qualified - Insufficient Income").</description>
+    <type>Text</type>
+    <length>255</length>
+    <required>false</required>
+    <externalId>false</externalId>
+</CustomField>

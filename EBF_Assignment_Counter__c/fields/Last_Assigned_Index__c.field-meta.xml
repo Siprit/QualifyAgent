@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Assigned_Index__c</fullName>
+    <label>Last Assigned Index</label>
+    <description>Rotating counter used for round-robin assignment. Incremented each time a Lead is assigned to a user within this queue.</description>
+    <type>Number</type>
+    <precision>4</precision>
+    <scale>0</scale>
+    <required>false</required>
+    <defaultValue>0</defaultValue>
+    <externalId>false</externalId>
+</CustomField>

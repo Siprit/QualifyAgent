@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documents_Pending_Count__c</fullName>
+    <label>Documents Pending Count</label>
+    <description>Count of Financial_Asset__c records where Document_Required = true and Document_Uploaded = false. Updated by EBF_Rollup_Financial_Assets flow.</description>
+    <type>Number</type>
+    <precision>3</precision>
+    <scale>0</scale>
+    <required>false</required>
+    <defaultValue>0</defaultValue>
+    <externalId>false</externalId>
+</CustomField>

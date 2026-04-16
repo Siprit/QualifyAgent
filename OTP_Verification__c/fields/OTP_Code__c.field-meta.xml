@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OTP_Code__c</fullName>
+    <label>OTP Code</label>
+    <description>Generated one-time password code. Field-level security should restrict to system context only.</description>
+    <type>Text</type>
+    <length>6</length>
+    <required>true</required>
+    <externalId>false</externalId>
+</CustomField>

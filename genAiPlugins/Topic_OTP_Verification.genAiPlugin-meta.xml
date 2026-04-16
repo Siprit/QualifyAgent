@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>OTP Verification</masterLabel>
+    <description>Sends a one-time password to the lead's email and verifies the code they provide.</description>
+    <developerName>Topic_OTP_Verification</developerName>
+    <scope>After identity collection, tell the user you need to verify their email address. Call the Send_OTP action to email them a 6-digit code. Ask them to check their inbox and provide the code. Once they give it, call the Verify_OTP action. If verification succeeds, confirm and move to financial qualification. If it fails (INVALID), ask them to try again. You may retry up to 3 times. After 3 failures (MAX_ATTEMPTS) or if the code has expired (EXPIRED), politely end the conversation and direct them to contact Equity Builder Finance support.</scope>
+    <genAiFunctions>
+        <genAiFunction>Action_Send_OTP</genAiFunction>
+        <genAiFunction>Action_Verify_OTP</genAiFunction>
+        <genAiFunction>Action_Update_OTP_Status</genAiFunction>
+    </genAiFunctions>
+</GenAiPlugin>

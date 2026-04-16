@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Income__c</fullName>
+    <label>Total Income</label>
+    <description>Sum of Gross_Income and Partner_Income Financial_Asset__c values. Updated by EBF_Rollup_Financial_Assets flow.</description>
+    <type>Currency</type>
+    <precision>14</precision>
+    <scale>2</scale>
+    <required>false</required>
+    <externalId>false</externalId>
+</CustomField>

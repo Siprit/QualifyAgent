@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Financial Qualification</masterLabel>
+    <description>Collects comprehensive financial information for loan qualification including assets, income, documents, and property details.</description>
+    <developerName>Topic_Financial_Qualification</developerName>
+    <scope>Now collect comprehensive financial information conversationally. Ask one question at a time in this order:
+1. Cash on hand - ask for their approximate liquid cash holdings and call Create_Financial_Asset with category Cash
+2. Term deposits - ask for total term deposit value, create asset with category Term_Deposit
+3. Annual gross income - ask their annual gross income before tax, create asset with category Gross_Income
+4. Payslips - ask them to upload their 2 most recent payslips. For each, create a Financial_Asset with category Payslip and sequence 1 then 2, then call Request_Document_Upload for each
+5. Partner - ask if they have a partner. Call Save_Lead_Details with the answer. If yes, ask for partner's annual gross income (category Partner_Income) and request 2 partner payslips (category Partner_Payslip)
+6. Dependents - ask how many dependents they have, call Save_Lead_Details
+7. Tax returns - request their 2 most recent tax returns. Create Financial_Asset with category Tax_Return, sequence 1 and 2, then Request_Document_Upload
+8. Superannuation - ask for their super balance, create asset with category Superannuation
+9. Savings accounts - ask for total savings account balance, category Savings_Account
+10. Cryptocurrency - ask if they hold any crypto and its approximate value, category Cryptocurrency
+11. Investment properties - ask if they own investment properties, how many, estimated total value and address. Create asset with category Investment_Property
+
+After all data is collected, call Run_Qualification and communicate the result to the customer. If qualified, congratulate them and explain next steps. If not qualified, be empathetic and suggest areas they could improve.</scope>
+    <genAiFunctions>
+        <genAiFunction>Action_Create_Financial_Asset</genAiFunction>
+        <genAiFunction>Action_Save_Lead_Details</genAiFunction>
+        <genAiFunction>Action_Request_Document_Upload</genAiFunction>
+        <genAiFunction>Action_Run_Qualification</genAiFunction>
+    </genAiFunctions>
+</GenAiPlugin>

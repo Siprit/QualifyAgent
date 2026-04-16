@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Run Qualification</masterLabel>
+    <description>Runs the qualification scoring engine against the lead's financial data using configurable thresholds. Computes a weighted score (0-100) and determines pass/fail. Updates the Lead with score, result, and status.</description>
+    <developerName>Action_Run_Qualification</developerName>
+    <functionType>Flow</functionType>
+    <flowDefinition>EBF_Run_Qualification</flowDefinition>
+</GenAiFunction>

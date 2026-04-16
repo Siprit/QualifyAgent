@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_Status__c</fullName>
+    <label>Qualification Status</label>
+    <description>Current stage in the Equity Builder Finance qualification lifecycle.</description>
+    <type>Picklist</type>
+    <required>false</required>
+    <externalId>false</externalId>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Not Started</fullName><default>true</default><label>Not Started</label></value>
+            <value><fullName>Identity Collected</fullName><default>false</default><label>Identity Collected</label></value>
+            <value><fullName>OTP Verified</fullName><default>false</default><label>OTP Verified</label></value>
+            <value><fullName>Documents Pending</fullName><default>false</default><label>Documents Pending</label></value>
+            <value><fullName>Qualified</fullName><default>false</default><label>Qualified</label></value>
+            <value><fullName>Not Qualified</fullName><default>false</default><label>Not Qualified</label></value>
+            <value><fullName>Customer Update Requested</fullName><default>false</default><label>Customer Update Requested</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

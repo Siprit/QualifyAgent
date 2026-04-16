@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OTP_Verified__c</fullName>
+    <label>OTP Verified</label>
+    <description>Convenience flag set to true when email OTP verification succeeds. Updated by EBF_Update_OTP_Status flow.</description>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>

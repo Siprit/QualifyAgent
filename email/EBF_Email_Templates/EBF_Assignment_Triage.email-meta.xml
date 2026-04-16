@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EBF Assignment - Triage</name>
+    <style>none</style>
+    <subject>New Application Assigned: {!Lead.FirstName} {!Lead.LastName}</subject>
+    <type>text</type>
+    <content>Hello,
+
+A new lead application has been assigned to the Triage Queue for initial screening.
+
+Applicant Details:
+- Name: {!Lead.FirstName} {!Lead.LastName}
+- Email: {!Lead.Email}
+- Company: {!Lead.Company}
+
+Please review this application at your earliest convenience and complete the initial screening process.
+
+Thank you,
+Equity Builder Finance</content>
+</EmailTemplate>

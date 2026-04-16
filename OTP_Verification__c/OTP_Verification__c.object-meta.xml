@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>OTP Verification</label>
+    <pluralLabel>OTP Verifications</pluralLabel>
+    <nameField>
+        <label>OTP Verification Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>OTP-{0000}</displayFormat>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <enableActivities>false</enableActivities>
+    <enableReports>true</enableReports>
+    <description>Reusable OTP verification records. Polymorphic — can reference Lead, Case, Contact, or any Salesforce object via Related_Record_Id__c.</description>
+</CustomObject>

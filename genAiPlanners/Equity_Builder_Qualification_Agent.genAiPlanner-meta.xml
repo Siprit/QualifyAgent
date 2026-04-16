@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlanner xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Equity Builder Qualification Agent</masterLabel>
+    <description>Conversational agent for Equity Builder Finance that qualifies loan leads through identity verification, financial data collection, and document management.</description>
+    <plannerType>Templatized</plannerType>
+</GenAiPlanner>

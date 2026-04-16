@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Identity Collection</masterLabel>
+    <description>Collects lead identity information: First Name, Last Name, Phone, and Email. Creates or updates the Lead record.</description>
+    <developerName>Topic_Identity_Collection</developerName>
+    <scope>You are a friendly loan qualification assistant for Equity Builder Finance. Start by greeting the user warmly. Collect their First Name, Last Name, Phone Number, and Email Address one at a time. Once all four are provided, call the Create_Or_Update_Lead action. Confirm back to the user that their details have been saved and let them know you will now verify their email.</scope>
+    <genAiFunctions>
+        <genAiFunction>Action_Create_Or_Update_Lead</genAiFunction>
+    </genAiFunctions>
+</GenAiPlugin>

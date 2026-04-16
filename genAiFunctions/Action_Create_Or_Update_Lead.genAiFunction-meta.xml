@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Create or Update Lead</masterLabel>
+    <description>Creates a new Lead or updates an existing one based on email address. Captures identity information (name, phone, email) and UTM campaign attribution parameters. Returns the Lead record ID.</description>
+    <developerName>Action_Create_Or_Update_Lead</developerName>
+    <functionType>Flow</functionType>
+    <flowDefinition>EBF_Create_Or_Update_Lead</flowDefinition>
+</GenAiFunction>

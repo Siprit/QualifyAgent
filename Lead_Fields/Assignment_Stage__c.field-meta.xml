@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_Stage__c</fullName>
+    <label>Assignment Stage</label>
+    <description>Current assignment stage in the Lead handover lifecycle.</description>
+    <type>Picklist</type>
+    <required>false</required>
+    <externalId>false</externalId>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Stage_1_Triage</fullName><default>false</default><label>Stage 1 - Triage</label></value>
+            <value><fullName>Stage_2_Doc_Review</fullName><default>false</default><label>Stage 2 - Document Review</label></value>
+            <value><fullName>Stage_3_Qualified</fullName><default>false</default><label>Stage 3 - Qualified</label></value>
+            <value><fullName>Stage_3_Not_Qualified</fullName><default>false</default><label>Stage 3 - Not Qualified</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Financial Asset</label>
+    <pluralLabel>Financial Assets</pluralLabel>
+    <nameField>
+        <label>Financial Asset Name</label>
+        <type>AutoNumber</type>
+        <displayFormat>FA-{0000}</displayFormat>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ControlledByParent</sharingModel>
+    <enableActivities>false</enableActivities>
+    <enableReports>true</enableReports>
+    <description>Individual financial asset or document records for lead qualification. Each payslip, tax return, super balance, etc. is a separate record linked to a Lead (and later Account after conversion).</description>
+</CustomObject>

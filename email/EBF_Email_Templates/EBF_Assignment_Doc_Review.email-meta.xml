@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EBF Assignment - Document Review</name>
+    <style>none</style>
+    <subject>Documents Ready for Review: {!Lead.FirstName} {!Lead.LastName}</subject>
+    <type>text</type>
+    <content>Hello,
+
+All required documents have been submitted for the following lead and are ready for document verification.
+
+Applicant Details:
+- Name: {!Lead.FirstName} {!Lead.LastName}
+- Email: {!Lead.Email}
+- Company: {!Lead.Company}
+
+Please review the submitted documents and verify their accuracy and completeness.
+
+Thank you,
+Equity Builder Finance</content>
+</EmailTemplate>

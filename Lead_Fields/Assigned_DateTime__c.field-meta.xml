@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_DateTime__c</fullName>
+    <label>Assigned Date/Time</label>
+    <description>Timestamp of the most recent Lead assignment/handover.</description>
+    <type>DateTime</type>
+    <required>false</required>
+    <externalId>false</externalId>
+</CustomField>

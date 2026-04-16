@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Period__c</fullName>
+    <label>Period</label>
+    <description>Time period (e.g. 2025-2026, March 2026)</description>
+    <type>Text</type>
+    <length>50</length>
+    <required>false</required>
+    <externalId>false</externalId>
+</CustomField>

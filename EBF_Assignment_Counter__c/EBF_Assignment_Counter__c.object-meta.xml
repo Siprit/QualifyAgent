@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>EBF Assignment Counter</label>
+    <pluralLabel>EBF Assignment Counters</pluralLabel>
+    <nameField>
+        <label>Queue API Name</label>
+        <type>Text</type>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <enableActivities>false</enableActivities>
+    <enableReports>false</enableReports>
+    <description>Helper object for declarative round-robin lead assignment. One record per queue tracks the last-assigned index.</description>
+</CustomObject>

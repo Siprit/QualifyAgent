@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EBF Assignment - Qualified Lead</name>
+    <style>none</style>
+    <subject>Qualified Lead Assigned: {!Lead.FirstName} {!Lead.LastName} - Score {!Lead.Qualification_Score__c}</subject>
+    <type>text</type>
+    <content>Hello,
+
+A qualified lead has been assigned to you for further engagement.
+
+Applicant Details:
+- Name: {!Lead.FirstName} {!Lead.LastName}
+- Email: {!Lead.Email}
+- Company: {!Lead.Company}
+- Qualification Score: {!Lead.Qualification_Score__c}
+- Qualification Result: {!Lead.Qualification_Result__c}
+
+This lead has met the qualification criteria and is ready for the next stage of the process. Please reach out promptly.
+
+Thank you,
+Equity Builder Finance</content>
+</EmailTemplate>

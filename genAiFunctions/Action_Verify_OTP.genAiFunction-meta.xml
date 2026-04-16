@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Verify OTP</masterLabel>
+    <description>Validates the code entered by the user against the stored OTP. Checks expiry and attempt limits. Returns verification result: SUCCESS, INVALID, EXPIRED, or MAX_ATTEMPTS.</description>
+    <developerName>Action_Verify_OTP</developerName>
+    <functionType>Flow</functionType>
+    <flowDefinition>OTP_Verify</flowDefinition>
+</GenAiFunction>

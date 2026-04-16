@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Update OTP Status</masterLabel>
+    <description>Updates the Lead's OTP_Verified flag to true after successful OTP verification.</description>
+    <developerName>Action_Update_OTP_Status</developerName>
+    <functionType>Flow</functionType>
+    <flowDefinition>EBF_Update_OTP_Status</flowDefinition>
+</GenAiFunction>

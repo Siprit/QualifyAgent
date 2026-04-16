@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Request Document Upload</masterLabel>
+    <description>Generates an Experience Cloud portal URL where the customer can upload a document for a specific Financial Asset record. Returns the upload URL and count of documents still pending.</description>
+    <developerName>Action_Request_Document_Upload</developerName>
+    <functionType>Flow</functionType>
+    <flowDefinition>EBF_Request_Document_Upload</flowDefinition>
+</GenAiFunction>

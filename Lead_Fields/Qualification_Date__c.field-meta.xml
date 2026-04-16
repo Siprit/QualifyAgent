@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_Date__c</fullName>
+    <label>Qualification Date</label>
+    <description>Timestamp when the qualification scoring was last run.</description>
+    <type>DateTime</type>
+    <required>false</required>
+    <externalId>false</externalId>
+</CustomField>

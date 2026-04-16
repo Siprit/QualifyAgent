@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_Of_Dependents__c</fullName>
+    <label>Number of Dependents</label>
+    <description>Number of financial dependents declared by the applicant.</description>
+    <type>Number</type>
+    <precision>2</precision>
+    <scale>0</scale>
+    <required>false</required>
+    <externalId>false</externalId>
+</CustomField>

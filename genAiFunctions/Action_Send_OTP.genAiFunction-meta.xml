@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Send OTP</masterLabel>
+    <description>Generates a 6-digit one-time password and sends it to the lead's email address. Creates an OTP_Verification__c record to track the verification attempt. Returns the OTP record ID.</description>
+    <developerName>Action_Send_OTP</developerName>
+    <functionType>Flow</functionType>
+    <flowDefinition>OTP_Send</flowDefinition>
+</GenAiFunction>

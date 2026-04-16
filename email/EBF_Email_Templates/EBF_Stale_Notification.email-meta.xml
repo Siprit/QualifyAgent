@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EBF Stale Data Notification</name>
+    <style>none</style>
+    <subject>Action Required: Please Update Your Financial Information - Equity Builder Finance</subject>
+    <type>text</type>
+    <content>Dear {!Lead.FirstName},
+
+We hope this message finds you well. As part of our commitment to providing you with the best possible service, we periodically review the information on file for our applicants.
+
+Our records indicate that some of your financial information may need updating. To ensure your application remains accurate and up to date, please log in to your Equity Builder Finance portal and review your details.
+
+You can access the portal here: {!Lead.Portal_Link__c}
+
+If you have any questions or need assistance, please do not hesitate to contact our support team.
+
+Thank you for choosing Equity Builder Finance.
+
+Warm regards,
+Equity Builder Finance Team</content>
+</EmailTemplate>

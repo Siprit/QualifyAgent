@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Category__c</fullName>
+    <label>Asset Category</label>
+    <type>Picklist</type>
+    <required>true</required>
+    <externalId>false</externalId>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Payslip</fullName><default>false</default><label>Payslip</label></value>
+            <value><fullName>Partner_Payslip</fullName><default>false</default><label>Partner Payslip</label></value>
+            <value><fullName>Tax_Return</fullName><default>false</default><label>Tax Return</label></value>
+            <value><fullName>Cash</fullName><default>false</default><label>Cash</label></value>
+            <value><fullName>Term_Deposit</fullName><default>false</default><label>Term Deposit</label></value>
+            <value><fullName>Superannuation</fullName><default>false</default><label>Superannuation</label></value>
+            <value><fullName>Savings_Account</fullName><default>false</default><label>Savings Account</label></value>
+            <value><fullName>Cryptocurrency</fullName><default>false</default><label>Cryptocurrency</label></value>
+            <value><fullName>Investment_Property</fullName><default>false</default><label>Investment Property</label></value>
+            <value><fullName>Gross_Income</fullName><default>false</default><label>Gross Income</label></value>
+            <value><fullName>Partner_Income</fullName><default>false</default><label>Partner Income</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

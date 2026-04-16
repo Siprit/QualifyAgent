@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>EBF Campaign Mapping</label>
+    <pluralLabel>EBF Campaign Mappings</pluralLabel>
+    <visibility>Public</visibility>
+    <description>Maps UTM campaign values to Salesforce Campaign records for CampaignMember creation</description>
+</CustomObject>
